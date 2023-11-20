@@ -1,24 +1,11 @@
-# def translate(input_str: str) -> str:
-#     output_str = input_str
-#     return output_str
-
 from googletrans import Translator
-import sys
 
-args= sys.argv
-if len(args) < 2:
-    print('Command should be like')
-    print('python translate.py textfile.txt')
-else:
-    print('open '+args[1])
-    f = open(args[1])
-    lines = f.readlines()
-    f.close()
-
+def translate_text(text):
     translator = Translator()
-    for line in lines:
-        translated = translator.translate(line, dest="ja");
-        print(line) # English
-        print(translated.text) # Japanese
-        print()
-    print('finished')
+    translated = translator.translate(text, dest="en")
+    return translated.text
+
+text = "素晴らしい発表でした!"
+
+a = translate_text(text)
+print(a)

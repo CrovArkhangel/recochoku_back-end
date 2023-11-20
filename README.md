@@ -1,4 +1,4 @@
-#　Lang Friends
+# Lang Friends
 This application is a repository for managing the back-end programs of the web application created during the Rekodoku 2days Hackathon.
 
 ## Elevator Pitch(ideal)

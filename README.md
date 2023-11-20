@@ -1,9 +1,5 @@
 # Lang Friends
-This application is a repository for managing the back-end programs of the web application created during the Rekodoku 2days Hackathon.
-
-## Elevator Pitch(ideal)
-**For beginning students** who **want to improve their listening and speaking skills and learn a foreign language**, the product **"Lang Friends"** is **a language exchange service**.
-It allows users **to make video calls with native speakers of the language they want to learn**, and unlike **HelloTalk or Tandem**, it has the ability **to support conversations by displaying subtitles and providing example sentences and words**.
+This is a repository for managing the back-end programs of the web application created during the Rekodoku 2days Hackathon.
 
 ## Setup
 You must have installed python beforehand.

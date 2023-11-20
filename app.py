@@ -3,7 +3,9 @@ from flask import request
 from flask import jsonify
 from flask_cors import CORS
 
+
 import recognize
+# import translate
 
 
 app = Flask(__name__)
@@ -31,4 +33,9 @@ def transcription():
     return jsonify({"text": result}), 200
 
 # @app.route("/translate/voice", method=["POST"])
-# def translate():
+# def trans():
+#     # data_text = request.files['files']
+#     input_str = request.get_json()["key"]
+#     translate.tranlate()
+#     input_json = jsonify(input_str)
+#     return recognize.transcribe_audio(input_json), 200

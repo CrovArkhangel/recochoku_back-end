@@ -5,7 +5,8 @@ def translate_text(text):
     translated = translator.translate(text, dest="en")
     return translated.text
 
-text = "素晴らしい発表でした!"
+if __name__ == '__main__':
+    text = "素晴らしい発表でした!"
 
-a = translate_text(text)
-print(a)
+    a = translate_text(text)
+    print(a)
